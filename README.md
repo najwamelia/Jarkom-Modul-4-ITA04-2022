@@ -17,3 +17,5 @@ Topologi yang perlu kita buat :
 6. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
 
 ## Jawaban
+### Metode VLSM
+Pertama, kita menentukan subnet pada topologi. Lalu kita perlu melingkari host yang terhubung pada interface router serta menghitung IP yang dibutuhkan. Berikut merupakan pembagian subnet kami :
