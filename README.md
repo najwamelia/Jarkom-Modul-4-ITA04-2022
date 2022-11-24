@@ -8,3 +8,12 @@ Najwa Amelia Qorry 'Aina | 5027201001
 ## Soal
 Topologi yang perlu kita buat :
 ![Foto](./img/gambarsoal.png)
+
+1. Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
+2. Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau Sebaliknya
+3. Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
+4. Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi internet.
+5. Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
+6. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
+
+## Jawaban
