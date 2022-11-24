@@ -7,4 +7,4 @@ Najwa Amelia Qorry 'Aina | 5027201001
 
 ## Soal
 Topologi yang perlu kita buat :
-![Foto](./img/soal shift 4.1.png)
+![Foto](./img/gambarsoal.png)
