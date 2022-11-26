@@ -19,4 +19,13 @@ Topologi yang perlu kita buat :
 ## Jawaban
 ### Metode VLSM
 Pertama, kita menentukan subnet pada topologi. Lalu kita perlu melingkari host yang terhubung pada interface router serta menghitung IP yang dibutuhkan. Berikut merupakan pembagian subnet kami :
+![Foto](./img/vlsm_2.PNG)
+
+Kemudian kami menghitung jumlah host setiap subnet dan berapa netmask yang akan digunakan dengan perhitangan berikut:
+![Foto](./img/subnet_netmask.PNG)
+
+Dengan Prefix IP kelompok ITA04 (192.212.x.x), kemudian kami mengerjakan perhitungan subnetting menggunakan metode VLSM dengan pohon perhitungan VLSM berikut:
 ![Foto](./img/vlsm_1.PNG)
+
+Detail dari perhitungan dapat dilihat melalui tabel perhitungan berikut:
+![Foto](./img/vlsm_tabel.PNG)
