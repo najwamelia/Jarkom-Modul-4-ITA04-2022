@@ -29,3 +29,5 @@ Dengan Prefix IP kelompok ITA04 (192.212.x.x), kemudian kami mengerjakan perhitu
 
 Detail dari perhitungan dapat dilihat melalui tabel perhitungan berikut:
 ![Foto](./img/vlsm_tabel.PNG)
+
+Selanjutnya kami melakukan konfigurasinya berdasarkan tabel perhitungan metode VLSM ini pada Cisco Packet Tracert.
