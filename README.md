@@ -34,8 +34,48 @@ Detail dari perhitungan dapat dilihat melalui tabel perhitungan berikut:
 
 ![Foto](./img/vlsm_tabel.PNG)
 
-Selanjutnya kami melakukan konfigurasinya berdasarkan tabel perhitungan metode VLSM ini pada Cisco Packet Tracert:
-Lorem ipsum
+Selanjutnya kami melakukan konfigurasinya berdasarkan tabel perhitungan metode VLSM ini pada Cisco Packet Tracer. IP address diambil dari kolom Usable IP Addresses. Sebagai contoh kami mengambil subnet A1 sebagai berikut:
+
+##### Pada The Minister: Router yang terhubung pada subnet A1
+![Foto](./img/vlsm_ip1.png)
+
+##### Pada Guideau: PC yang terdapat pada subnet A1
+![Foto](./img/vlsm_ip2.png)
+
+Untuk subnet lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer berikut.
+
+#### Routing VLSM
+Setelah semua Node sudah diatur IP nya, selanjutnya kita akan melakukan routing agar semua node saling terhubung. Sebagai contoh penjelasan, kami mengambil router The Order. 
+
+Pertama-tama kami menghubungkan router The Order ke internet melalui router The Resonance kemudian sambungkan ke subnet yang berada di bawah router yaitu subnet A1, A9, dan A12 melalui router The Minister dengan konfigurasi seperti berikut:
+
+```
+Internet:
+	Network: 0.0.0.0
+	Netmask: 0.0.0.0
+	Next Hop: 192.212.0.17
+Subnet A1:
+	Network: 192.212.8.0
+	Netmask: 255.255.252.0
+	Next Hop: 192.212.0.14
+Subnet A9:
+    Network: 192.212.2.0
+	Netmask: 255.255.255.0
+	Next Hop: 192.212.0.14
+Subnet A12:
+	Network: 192.212.0.8
+	Netmask: 255.255.255.252
+	Next Hop: 192.212.0.14
+```
+
+Berikut adalah screenshot routing pada The Order
+![Foto](./img/vlsm_routing1.png)
+
+Untuk routing lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer berikut.
+
+Dengan melakukan routing seperti itu, kita sudah dapat memastikan bahwa semua node sudah terhubung. Sebagai contoh kami mengambil The Dauntless ke The Profound. 
+
+![Foto](./img/vlsm_routing2.png)
 
 
 ### Metode CIDR
