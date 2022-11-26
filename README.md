@@ -42,7 +42,7 @@ Selanjutnya kami melakukan konfigurasinya berdasarkan tabel perhitungan metode V
 ##### Pada Guideau: PC yang terdapat pada subnet A1
 ![Foto](./img/vlsm_ip2.png)
 
-Untuk subnet lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer berikut.
+Untuk subnet lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer <a href="https://github.com/najwamelia/Jarkom-Modul-4-ITA04-2022/blob/main/Jarkom-Modul-4-ITA04-2022.pkt"><b style="color:blue">berikut</b></a>.
 
 #### Routing VLSM
 Setelah semua Node sudah diatur IP nya, selanjutnya kita akan melakukan routing agar semua node saling terhubung. Sebagai contoh penjelasan, kami mengambil router The Order. 
@@ -68,10 +68,11 @@ Subnet A12:
 	Next Hop: 192.212.0.14
 ```
 
-Berikut adalah screenshot routing pada The Order
+Berikut adalah screenshot routing pada The Order:
+
 ![Foto](./img/vlsm_routing1.png)
 
-Untuk routing lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer berikut.
+Untuk routing lainnya dilakukan dengan cara yang sama. Lebih jelasnya dapat dilihat langsung pada packet tracer <a href="https://github.com/najwamelia/Jarkom-Modul-4-ITA04-2022/blob/main/Jarkom-Modul-4-ITA04-2022.pkt"><b style="color:blue">berikut</b></a>.
 
 Dengan melakukan routing seperti itu, kita sudah dapat memastikan bahwa semua node sudah terhubung. Sebagai contoh kami mengambil The Dauntless ke The Profound. 
 
